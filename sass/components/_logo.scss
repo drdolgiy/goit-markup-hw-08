@@ -1,8 +1,4 @@
 .header__logo {
-  margin-top: 24px;
-  margin-bottom: 25px;
-  margin-right: 93px;
-
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -27,4 +23,26 @@
 
 .logo-color {
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 480px) {
+  .header__logo {
+    display: inline-block;
+    margin: 16px 0px 16px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    display: flex;
+    margin: 26px 88px 26px 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    margin-right: 93px;
+  }
 }

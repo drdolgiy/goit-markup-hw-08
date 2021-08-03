@@ -17,7 +17,7 @@
     <!--Шапка сайта -->
     <header class="header">
         <div class="header__container container">
-            <nav class="main-nav">
+            <nav class="nav">
                 <a class="header__logo link" href="#"><span class="logo-color">Web</span>Studio</a>
                 <ul class="menu list">
                     <li class="menu__link item"><a class="menu__item link current" href="#">Студия</a></li>
@@ -25,7 +25,14 @@
                     <li class="item"><a class="link" href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="contact-nav list">
+            <button class="menu-btn">
+                <svg class="menu-btn__icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-burger_menu">
+
+                    </use>
+                </svg>
+            </button>
+            <ul class="nav-contact list">
                 <li class="item">
                     <a class="contact link" href="mailto:info@devstudio.com" aria-label="Отправить письмо">
                         <svg class="contact__icon" width="16" height="12">
