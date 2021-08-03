@@ -1,0 +1,17 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+
+  transform: scale(1);
+  transition: opacity 400ms linear, transform 300ms linear;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}

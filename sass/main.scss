@@ -1,0 +1,46 @@
+// UTILS
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+// BASE
+@import "./base/common";
+@import "./base/container";
+
+// LOGO
+@import "./components/logo";
+
+//HEADER
+@import "./layout/header";
+
+// HERO
+@import "./layout/hero";
+
+// FEATURES
+@import "./layout/features";
+
+// WORKLIST
+@import "./layout/worklist";
+
+// TEAM-SECTION
+@import "./layout/team-section";
+
+// SOCIAL-LINK
+@import "./components/social-link";
+
+// CUSTOMERS
+@import "./layout/customers";
+
+// BACKDROP
+@import "./components/backdrop";
+
+// MODAL
+@import "./layout/modal";
+
+// WORKLIST-FILTER
+@import "./layout/worklist-filter";
+
+// WORKLIST-GALLERY
+@import "./layout/worklist-gallery";
+
+//FOOTER
+@import "./layout/footer";
