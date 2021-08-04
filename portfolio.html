@@ -16,25 +16,32 @@
     <!-- Шапка сайта -->
     <header class="header">
       <div class="header__container container">
-        <nav class="main-nav">
+        <nav class="nav">
           <a class="header__logo link" href="#"><span class="logo-color">Web</span>Studio</a>
           <ul class="menu list">
-            <li class="item"><a class="link" href="./index.html">Студия</a></li>
-            <li class="menu__link item"><a class="menu__item link current" href="#">Портфолио</a></li>
-            <li class="item"><a class="link" href="#">Контакты</a></li>
+            <li class="item"><a class="menu__link link" href="./index.html">Студия</a></li>
+            <li class="menu__list item"><a class="menu__link menu__item link current" href="#">Портфолио</a></li>
+            <li class="item"><a class="menu__link link" href="#">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contact-nav list">
+        <button class="menu-btn">
+          <svg class="menu-btn__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-burger_menu">
+        
+            </use>
+          </svg>
+        </button>
+        <ul class="contact list">
           <li class="item">
-            <a class="contact link" href="mailto:info@devstudio.com" aria-label="Отправить письмо">
-              <svg class="contact__icon" width="16" height="12">
+            <a class="contact-link link" href="mailto:info@devstudio.com" aria-label="Отправить письмо">
+              <svg class="contact-link__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a>
           </li>
           <li class="item">
-            <a class="contact link" href="tel:+380961111111" aria-label="Позвонить">
-              <svg class="contact__icon" width="10" height="16">
+            <a class="contact-link link" href="tel:+380961111111" aria-label="Позвонить">
+              <svg class="contact-link__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a>
