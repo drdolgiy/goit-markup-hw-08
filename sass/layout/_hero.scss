@@ -56,7 +56,7 @@
 }
 
 // 480
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 768px) {
   .hero {
     padding: 118px 0;
     background-image: url(../../images/mobile/hero/hero_img.jpg../../hero_img@2x.jpg);
