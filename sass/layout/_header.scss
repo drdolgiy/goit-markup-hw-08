@@ -17,6 +17,9 @@
   line-height: 0;
 }
 
+.menu-btn:hover {
+  fill: var(--accent-color);
+}
 .header__container {
   display: flex;
   justify-content: space-between;
