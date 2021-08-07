@@ -57,7 +57,7 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .team-item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -82,9 +82,9 @@
     justify-content: space-between;
   }
 
-  .team-item:not(:last-child) {
-    margin-bottom: 0;
-  }
+  // .team-item:not(:last-child) {
+  //   margin-bottom: 30px;
+  // }
 }
 
 @media screen and (min-width: 1200px) {
