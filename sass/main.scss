@@ -1,49 +1,11 @@
 // UTILS
-@import "./utils/variables";
-@import "./utils/visually-hidden";
+@import "./utils/index";
 
 // BASE
-@import "./base/common";
-@import "./base/container";
+@import "./base/index";
 
-// LOGO
-@import "./components/logo";
+// COMPONENTS
+@import "./components/index";
 
-//HEADER
-@import "./layout/header";
-
-// MOBILE-MENU
-@import "./layout/mobile-menu";
-
-// HERO
-@import "./layout/hero";
-
-// FEATURES
-@import "./layout/features";
-
-// WORKLIST
-@import "./layout/worklist";
-
-// TEAM-SECTION
-@import "./layout/team-section";
-
-// SOCIAL-LINK
-@import "./components/social-link";
-
-// CUSTOMERS
-@import "./layout/customers";
-
-// BACKDROP
-@import "./components/backdrop";
-
-// MODAL
-@import "./layout/modal";
-
-// WORKLIST-FILTER
-@import "./layout/worklist-filter";
-
-// WORKLIST-GALLERY
-@import "./layout/worklist-gallery";
-
-//FOOTER
-@import "./layout/footer";
+//LAYOUT
+@import "./layout/index";
