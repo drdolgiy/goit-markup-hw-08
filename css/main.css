@@ -1181,6 +1181,9 @@ body {
   .team-item:not(:last-child) {
     margin-bottom: 0;
   }
+  .team-wrapper {
+    padding-bottom: 0;
+  }
   .team-list {
     display: flex;
     flex-wrap: wrap;
