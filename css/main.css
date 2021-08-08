@@ -78,9 +78,9 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 4320px) {
+@media screen and (min-width: 480px) {
   .container {
-    width: 320px;
+    width: 480px;
   }
 }
 
@@ -201,7 +201,6 @@ body {
 
 @media screen and (min-width: 320px) {
   .customers-section__head {
-    font-weight: 700;
     font-size: 24px;
     line-height: 1.18;
   }
@@ -219,16 +218,18 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .customers-section__head {
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.18;
+  .customers {
+    margin-left: -30px;
+  }
+  .customers__list {
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    margin-top: 30px;
+    margin-left: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .customers-section__head {
-    font-weight: bold;
     font-size: 36px;
     line-height: 1.17;
     margin-bottom: 20px;
@@ -485,6 +486,7 @@ body {
     margin-bottom: 60px;
   }
   .subscribe__input {
+    display: flex;
     min-width: 450px;
     margin-bottom: 20px;
   }
@@ -553,7 +555,7 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .menu {
     display: none;
   }
@@ -1160,7 +1162,7 @@ body {
   fill: currentColor;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .team-item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1235,7 +1237,7 @@ body {
   background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .worklist-filter {
     display: flex;
     flex-wrap: wrap;
@@ -1295,7 +1297,7 @@ body {
 .worklist-wrapper__overlay {
   position: absolute;
   top: 0;
-  overflow: visible;
+  overflow: auto;
   width: 100%;
   height: 100%;
   padding: 63px 24px;
@@ -1313,7 +1315,7 @@ body {
   transform: translateY(0%);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .worklist-gallery__item:not(:last-child) {
     margin-bottom: 30px;
   }
