@@ -8,7 +8,6 @@
   align-items: center;
 }
 
-// 480 -----------------------------------
 @media screen and (max-width: 768px) {
   .menu {
     display: none;
@@ -30,7 +29,6 @@
   }
 }
 
-// 768 ------------------------------------
 @media screen and (min-width: 768px) {
   .menu-btn {
     display: none;
@@ -125,7 +123,6 @@
   }
 }
 
-// 1200 ---------------------------------
 @media screen and (min-width: 1200px) {
   .menu-btn {
     display: none;

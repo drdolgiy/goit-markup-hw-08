@@ -55,7 +55,6 @@
   color: var(--third-color);
 }
 
-// 480
 @media screen and (max-width: 767px) {
   .hero {
     padding: 118px 0;
@@ -80,7 +79,6 @@
   }
 }
 
-// 768
 @media screen and (min-width: 768px) {
   .hero {
     padding: 118px 0 198px;
@@ -105,7 +103,6 @@
   }
 }
 
-// 1200
 @media screen and (min-width: 1200px) {
   .hero {
     padding: 200px 0 280px;

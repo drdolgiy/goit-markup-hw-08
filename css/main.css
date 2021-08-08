@@ -78,9 +78,9 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 4320px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 
@@ -117,7 +117,7 @@ body {
   color: #000000;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .header__logo {
     display: inline-block;
     margin: 16px 0px 16px 0px;
@@ -199,7 +199,7 @@ body {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .customers-section__head {
     font-weight: 700;
     font-size: 24px;
@@ -439,7 +439,7 @@ body {
   margin-left: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .footer-logo {
     font-size: 24px;
     line-height: 1.17;
@@ -1161,7 +1161,7 @@ body {
   fill: currentColor;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) {
   .team-item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1233,7 +1233,7 @@ body {
   background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .worklist-filter {
     display: flex;
     flex-wrap: wrap;
@@ -1311,7 +1311,7 @@ body {
   transform: translateY(0%);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .worklist-gallery__item:not(:last-child) {
     margin-bottom: 30px;
   }
