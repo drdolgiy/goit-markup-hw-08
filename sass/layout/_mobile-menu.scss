@@ -80,22 +80,19 @@
   margin-bottom: 32px;
 }
 
-.mobile-menu-contact__tel {
+.mobile-menu-contact__tel,
+.mobile-menu-contact__mail {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.18;
   letter-spacing: 0.02em;
 
-  color: var(--accent-color);
+  color: var(--secondary-color);
 }
 
-.mobile-menu-contact__mail {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-
-  color: var(--secondary-color);
+.mobile-menu-contact__tel,
+.mobile-menu-contact__mail:hover {
+  color: var(--accent-color);
 }
 
 .mobile-social-network {
