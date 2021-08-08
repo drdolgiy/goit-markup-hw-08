@@ -39,11 +39,11 @@
 .worklist-wrapper__overlay {
   position: absolute;
   top: 0;
-  overflow: visible;
+  overflow: auto;
 
   width: 100%;
   height: 100%;
-  padding: 63px 24px;
+  padding: 24px;
 
   font-size: 18px;
   line-height: 1.56;
