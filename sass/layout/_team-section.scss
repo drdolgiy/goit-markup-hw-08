@@ -1,5 +1,6 @@
 .team {
   background-color: #f5f4fa;
+
   &__header {
     margin-bottom: 30px;
 
@@ -80,18 +81,18 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: -30px;
+    margin-left: -30px;
   }
 
-  // .team-item:not(:last-child) {
-  //   margin-bottom: 30px;
-  // }
+  .team-item {
+    flex-basis: calc(100% / 2 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .team-item {
-    margin-left: 30px;
-  }
-
   .team__header {
     margin-bottom: 50px;
 
@@ -103,10 +104,13 @@
   }
 
   .team-list {
+    margin-top: -30px;
     margin-left: -30px;
   }
 
-  .team-item:not(:last-child) {
-    margin-bottom: 0;
+  .team-item {
+    flex-basis: calc(100% / 4 - 30px);
+    margin-top: 30px;
+    margin-left: 30px;
   }
 }
