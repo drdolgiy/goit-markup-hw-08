@@ -75,12 +75,12 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
+    margin: 0 auto;
   }
 }
 
@@ -822,7 +822,8 @@ body {
 .mobile-menu__container {
   position: relative;
   padding-top: 48px;
-  padding-left: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .close-btn {
@@ -1098,9 +1099,21 @@ body {
   background: #188ce8;
 }
 
+@media screen and (min-width: 320px) {
+  .modal {
+    width: 100%;
+    max-width: 450px;
+  }
+  .checkbox__label {
+    font-size: 12px;
+    line-height: 1.71;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .modal {
-    width: 528px;
+    width: 100%;
+    max-width: 528px;
   }
   .checkbox__label {
     font-size: 14px;
@@ -1162,7 +1175,7 @@ body {
   fill: currentColor;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .team-item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1237,7 +1250,7 @@ body {
   background-color: var(--accent-color);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .worklist-filter {
     display: flex;
     flex-wrap: wrap;
@@ -1297,7 +1310,7 @@ body {
 .worklist-wrapper__overlay {
   position: absolute;
   top: 0;
-  overflow: auto;
+  overflow: visible;
   width: 100%;
   height: 100%;
   padding: 63px 24px;
@@ -1315,7 +1328,7 @@ body {
   transform: translateY(0%);
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .worklist-gallery__item:not(:last-child) {
     margin-bottom: 30px;
   }
